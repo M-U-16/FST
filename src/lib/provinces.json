@@ -1,0 +1,147 @@
+{
+    "friesland": {
+        "key": "friesland",
+        "name": "Friesland",
+        "realName": "Fryslân",
+        "hauptstadt": "Leeuwarden",
+        "population": {
+            "number": "661.956",
+            "value": 661956,
+            "percent": "3,7%"
+        },
+        "color": "#D0E7C7"
+    },
+    "groningen": {
+        "key": "groningen",
+        "name": "Groningen",
+        "realName": "Groningen",
+        "hauptstadt": "Leeuwarden",
+        "population": {
+            "number": "601.510",
+            "value": 601510,
+            "percent": "3,4%"
+        },
+        "color": "#CBC5FC"
+        
+    },
+    "drenthe": {
+        "key": "drenthe",
+        "name": "Drenthe",
+        "realName": "Drenthe",
+        "hauptstadt": "Assen",
+        "population": {
+            "number": "504.116",
+            "value": 504116,
+            "percent": "2,8%"
+        },
+        "color": "#DDFFFF"
+    },
+    "overijssel": {
+        "key": "overijssel",
+        "name": "Overijssel",
+        "realName": "Overijssel",
+        "hauptstadt": "Zwolle",
+        "population": {
+            "number": "1.189.079",
+            "value": 1189079,
+            "percent": "6,6%"
+        },
+        "color": "#D8ADC5"
+    },
+    "gelderland": {
+        "key": "gelderland",
+        "name": "Gelderland",
+        "realName": "Gelderland",
+        "hauptstadt": "Arnheim",
+        "population": {
+            "number": "2.149.057",
+            "value": 2149057,
+            "percent": "12%"
+        },
+        "color": "#E3A528"
+    },
+    "limburg": {
+        "key": "limburg",
+        "name": "Limburg",
+        "realName": "Limburg",
+        "hauptstadt": "Maastricht",
+        "population": {
+            "number": "1.133.174",
+            "value": 1133174,
+            "percent": "6,3%"
+        },
+        "color": "#AED6BE"
+    },
+    "northbrabant": {
+        "key": "northbrabant",
+        "name": "Nordbrabant",
+        "realName": "Noord-Brabant",
+        "hauptstadt": "s-Hertogen-bosch",
+        "population": {
+            "number": "2.644.872",
+            "value": 2644872,
+            "percent": "14.7%"
+        },
+        "color": "#C7DE79"
+    },
+    "utrecht": {
+        "key": "utrecht",
+        "name": "Utrecht",
+        "realName": "Utrecht",
+        "hauptstadt": "Utrecht",
+        "population": {
+            "number": "1.400.187",
+            "value": 1400187,
+            "percent": "7.8%"
+        },
+        "color": "#F8E7FE"
+    },
+    "flevoland": {
+        "key": "flevoland",
+        "name": "Flevoland",
+        "realName": "Flevoland",
+        "hauptstadt": "Lelystad",
+        "population": {
+            "number": "450.920",
+            "value": 450920,
+            "percent": "2,5%"
+        },
+        "color": "#A29C85"
+    },
+    "northholland": {
+        "key": "northholland",
+        "name": "Nordholland",
+        "realName": "Noord-Holland",
+        "hauptstadt": "Haarlem",
+        "population": {
+            "number": "2.980.494",
+            "value": 2980494,
+            "percent": "16.6%"
+        },
+        "color": "#FCF799"
+    },
+    "southholland": {
+        "key": "southholland",
+        "name": "Südholland",
+        "realName": "Zuid-Holland",
+        "hauptstadt": "Den Haag",
+        "population": {
+            "number": "3.840.662",
+            "value": 3840662,
+            "percent": "21.4%"
+        },
+        "color": "#DD8473"
+    },
+    "zeeland": {
+        "key": "zeeland",
+        "name": "Zeeland",
+        "realName": "Zeeland",
+        "hauptstadt": "Middelburg",
+        "population": {
+            "number": "391.657",
+            "value": 391657,
+            "percent": "2.2%"
+        },
+        "color": "#D1C6DD"
+    }
+}

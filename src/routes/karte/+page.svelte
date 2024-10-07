@@ -10,15 +10,18 @@
         />
     </div>
     <div class="info-container">
-        <EinwohnerChart province={province} />
-        <div class="info-content">
-            <h1 class="info-heading">
+        <div class="einwohner-chart">
+            <!-- <h1 class="info-heading">
                 {#if province == ""}
                 Einwohner der Niederlande in den Provinzen
                 {:else}
                 {data[province].name}
                 {/if}
-            </h1>
+            </h1> -->
+            <EinwohnerChart province={province} />
+        </div>
+        
+        <div class="info-content">
             {#if province === "groningen"}
             <Groningen/>
             {:else if province === "drenthe"}
@@ -44,14 +47,9 @@
             {:else if province === "northholland"}
             <NorthHolland />
             {/if}
+            
         </div>
     </div>
-    
-    <!-- <Sidepanel
-        close={closePanel}
-        province={province}
-        sidepanelActive={sidepanelActive}
-    /> -->
 </div>
 
 <style>
@@ -75,16 +73,23 @@
     .info-container {
         width: 100%;
         display: grid;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: 1fr 1fr;
+        overflow: hidden;
     }
     
     .info-content {
         overflow-y: auto;
     }
 
+    .einwohner-chart {
+        position: relative;
+    }
+
     .info-heading {
-        padding: 0.2rem 0;
+        top: 0;
         font-size: 2rem;
+        padding: 0.2rem 0;
+        position: absolute;
         background-color: white;
     }
 
